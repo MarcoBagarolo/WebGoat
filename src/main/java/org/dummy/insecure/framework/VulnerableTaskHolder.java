@@ -1,5 +1,8 @@
 package org.dummy.insecure.framework;
 
+//modifica di prova per commit
+import java.io.BufferedInputStream;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -35,7 +38,7 @@ public class VulnerableTaskHolder implements Serializable {
         + requestedExecutionTime
         + "]";
   }
-
+  
   /**
    * Execute a task when de-serializing a saved or received object.
    *

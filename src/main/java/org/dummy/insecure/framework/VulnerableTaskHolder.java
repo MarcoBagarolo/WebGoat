@@ -1,7 +1,6 @@
 package org.dummy.insecure.framework;
 
-//modifica di prova per commit
-import java.io.BufferedInputStream;
+// modifica di prova per commit
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -27,7 +26,11 @@ public class VulnerableTaskHolder implements Serializable {
     this.taskAction = taskAction;
     this.requestedExecutionTime = LocalDateTime.now();
   }
-
+  
+  public Object toString2() {  //prova commit
+	  return null;
+  }
+  
   @Override
   public String toString() {
     return "VulnerableTaskHolder [taskName="
@@ -38,7 +41,7 @@ public class VulnerableTaskHolder implements Serializable {
         + requestedExecutionTime
         + "]";
   }
-  
+
   /**
    * Execute a task when de-serializing a saved or received object.
    *

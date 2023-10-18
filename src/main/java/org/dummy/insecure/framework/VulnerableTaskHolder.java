@@ -26,11 +26,11 @@ public class VulnerableTaskHolder implements Serializable {
     this.taskAction = taskAction;
     this.requestedExecutionTime = LocalDateTime.now();
   }
-  
-  public Object toString2() {  //prova commit
-	  return null;
+
+  public Object toString2() { // prova commit
+    return "critical password";
   }
-  
+
   @Override
   public String toString() {
     return "VulnerableTaskHolder [taskName="

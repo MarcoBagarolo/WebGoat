@@ -31,6 +31,10 @@ public class VulnerableTaskHolder implements Serializable {
     return "critical password";
   }
 
+  public Object toString3() { // prova commit
+	    return "plaintext password";
+	  }
+  
   @Override
   public String toString() {
     return "VulnerableTaskHolder [taskName="
